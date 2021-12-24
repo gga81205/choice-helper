@@ -1,0 +1,335 @@
+@font-face {
+    src : url("fonts/BMJUA_ttf.ttf"); 
+	font-family: "jua"
+}
+.title{
+	display: block;
+    font-size: 2em;
+	font-family : "jua";
+	color : black;
+}
+.container-fluid{
+	max-width : 800px;
+	margin: 0 auto;
+	display: flex;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border: 0;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+	text-decoration : none;
+}
+.offcanvas-title{
+	font-size : 30px;
+	font-family : "jua";
+}
+.nav-item{
+	font-size : 21px;
+}
+
+.bg-color{
+	background-color: #fae100;
+}
+.navbar{
+	padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+	border-bottom : solid 1px black;
+}
+.input-group{
+	max-width : 800px;
+	margin : 0px auto;
+	margin-bottom : 5px;
+}
+
+.form-control{
+	display:inline-block;
+	margin-left:100px;
+ 	margin-right:100px;
+	padding: 0rem 0rem;
+	border-width : 0px 3px 3px 3px;
+	border-color: #a8afb7;
+}
+.content-inner{
+	width:100%;
+	height : 40px;
+	border-bottom : solid 1px black;
+	margin-top : 100px;
+	text-align : center;
+}
+.guide-title{
+	font-size : 20px;
+	font-weight : 550;
+}
+.image-group{
+	max-width : 700px;
+	margin : 0px auto;
+	display:flex;
+}
+.images-t{
+	margin-left : 50px;
+	margin-right : 50px;
+}
+.bottom-bar{
+	position : fixed;
+	background-color : #fae100; 
+	width:100%;
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+	left: 0;
+  	right: 0;
+ 	bottom: 0;
+}
+.btn-next{
+    display:block;
+    margin:auto;
+	width : 150px;
+	height: 50px;
+	font-size : 20px;
+	font-family : "jua";
+	border-radius: 15px;
+	background-color : #eeb541;
+	border : 0;
+}
+
+.spare-box{
+	height:100px;
+}
+.wrap-radio-group{
+	max-width:675px;
+	margin: 0 auto;
+}
+.radio-contact{
+	width:50px;
+	height:50px;
+	margin-left:40px;
+	margin-right:40px;
+}
+
+
+.q-title{
+	font-size:40px;
+	font-weight: 550;
+	margin-top:30px;
+}
+.guide-text{
+	display:flex;
+	text-align:left;
+}
+.guide-text-1{
+	font-weight:600;
+	color : #33a474;
+	font-size:18px;
+}
+.guide-text-2{
+	flex:1;
+	font-weight:600;
+	color : #a72929;
+	font-size:18px;
+}
+.radio-question{
+	text-align:center;
+	border-bottom: 1px solid #dcdcdc;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.question11{
+	color: #576071;
+	font-weight:600;
+	font-size:21px;
+}
+.spinner-block{
+	max-width : 500px;
+	margin : 40px auto;
+	text-align : center;
+	font-size : 21px;
+	font-family:"jua";
+}
+
+input[type='radio'],
+input[type='radio']:checked {
+  appearance: none;
+  width: 50px;
+  height: 50px;
+  margin-left:40px;
+  margin-right:40px;
+  border-radius: 100%;
+}
+input[type='radio'] {
+  background-color: white;
+}
+#contactChoice1{
+	border: 3px solid #a72929;
+}
+#contactChoice1:checked {
+	background-color:#a72929;
+}
+#contactChoice2{
+	border: 3px solid #ae7777;
+}
+#contactChoice2:checked {
+	background-color:#ae7777;
+}
+#contactChoice3{
+	border: 3px solid #9b9faa;
+}
+#contactChoice3:checked {
+	background-color:#9b9faa;
+}
+#contactChoice4{
+	border: 3px solid #76af97;
+}
+#contactChoice4:checked {
+	background-color:#76af97;
+}
+#contactChoice5{
+	border: 3px solid #33a474;
+}
+#contactChoice5:checked {
+	background-color:#33a474;
+}
+.next-btn-block{
+	width:100%;
+	height:100px;
+}
+.btn-next-2{
+	display:block;
+	margin:auto;
+	width : 150px;
+	height: 50px;
+	font-size : 20px;
+	font-family : "jua";
+	border-radius: 15px;
+	background-color : #eeb541;
+	border : 0;
+}
+.button-block{
+	display:block;
+	margin:auto;
+	max-width : 500px;
+	height : 550px;
+	border : 3px solid #dcdcdc;
+}
+.block-spare{
+	display:block;
+	margin:auto;
+	width:100%;
+	height:129px;
+}
+.result-btn{
+    display:block;
+    margin:auto;
+	margin-top : 60px;
+	width : 160px;
+	height: 45px;
+	font-size : 20px;
+	font-family : "jua";
+	border-radius: 15px;
+	background-color : #eeb541;
+	border : 0;
+}
+.ads-block{
+	display:block;
+	margin:auto;
+	margin-top : 60px;
+	max-width : 250px;
+	height : 250px;
+	border : 3px solid #dcdcdc;
+}
+.ads-text{
+	text-align : center;
+	color : #dcdcdc;
+	font-size : 25px;
+}
+a:hover{ 
+	color:black; 
+}
+.result-image{
+	width: 350px;
+	height: 350px;
+}
+.rg-wrap{
+	margin : 10px auto;
+	position: relative;
+	width:350px;
+	height:350px;
+}
+.rg-wrap .rg-text{
+	position: absolute;
+	top: 57%;
+	left: 51%;
+  	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family : "jua";
+	font-size : 40px;
+}
+.result-block{
+	max-width : 450px;
+	margin : 5px auto;
+}
+.result-text-1{
+	font-family : "jua";
+	font-size : 30px;
+}
+.return-btn{
+	display:block;
+    margin:auto;
+	width : 150px;
+	height: 50px;
+	font-size : 20px;
+	font-family : "jua";
+	border-radius: 15px;
+	background-color : #eeb541;
+	border : 0;
+}
+@media screen and (max-width: 600px){
+	.container-fluid{
+		max-width : 350px;
+		margin 0 auto;
+	}
+	.form-control{
+		height: 20px;
+		margin-left:50px;
+ 		margin-right:50px;
+		padding: 0rem 0rem;
+		
+	}
+	.input-group{
+	max-width : 750px;
+	}
+	.image-group{
+		max-width : 900px;
+		margin : 0px auto;
+		display:flex;
+	}
+	.images-t{
+		margin-left : 30px;
+		margin-right : -15px;
+		width : 200px;
+		height : 200px;
+	}
+	.wrap-radio-group{
+		max-width:435px;
+	}
+	.q-title{
+		margin-top:11px;
+	}
+	input[type='radio'],
+	input[type='radio']:checked {
+      appearance: none;
+	  width: 40px;
+	  height: 40px;
+	  margin-left:20px;
+	  margin-right:20px;
+	}
+	.button-block{
+		max-width : 370px;
+		height : 450px;
+		border : 3px solid #dcdcdc;
+	}
+	.block-spare{
+	height : 120px;
+	}
+}
